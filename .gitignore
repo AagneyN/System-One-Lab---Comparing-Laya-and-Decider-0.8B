@@ -1,0 +1,43 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest-tmp-*/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Model weights and checkpoints
+models/
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Fine-tuning and temporary outputs
+wandb/
+mlruns/
+.cache/
+*.log
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Keep Git itself out of ignored paths
+
+# Local datasets (review before sharing)
+data/*.csv
+
+# Generated benchmark and fine-tuning outputs
+results/
+
+# Local model files
+models/

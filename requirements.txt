@@ -1,0 +1,15 @@
+--extra-index-url https://download.pytorch.org/whl/cu132
+
+streamlit>=1.40,<2
+plotly>=5.20,<7
+pandas>=2.2,<3
+numpy>=1.26,<3
+scikit-learn>=1.5,<2
+pytest>=8,<9
+
+# Verified Windows/CUDA environment used for this project.
+torch==2.14.1+cu132
+transformers==5.20.2
+huggingface-hub==2.3.0
+laya==0.4.15
+decider-ai==1.10.0
